@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "pub_80416125bfa7aa9199ebaa1f439941f9a1669"
+API_KEY = "news-api-key"
 
 def fetch_news(query):
     url = f"https://newsdata.io/api/1/news?apikey={API_KEY}&q={query}&language=en"
